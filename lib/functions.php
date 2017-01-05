@@ -7,13 +7,22 @@ la logique pour choisir la page à charger
 */
 
 function getContent(){
+	$pages = ['bio','contact', 'home'];
 	if(!isset($_GET['page'])){
 		include __DIR__.'/../pages/home.php';
-	} else {
-		// le reste du code
+
+	} 
+	$file =__DIR__.'/../parts/'. $_GET['page'] . '.php';
+	if(in_array($_GET['page'], $page) && file_exists($file)){
+		return $file;
+	}
+	else {
+		return  __DIR__.'../parts/404.php'; 
 	}
 }
 
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
+
+
