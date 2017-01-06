@@ -16,8 +16,8 @@
 					<i class="sidebar icon"></i>
 				</a>
 				<a href="index.php" class="active item">Home</a>
-				<a href="index.php?pages=bio" class="item">Bio</a>
-				<a href="index.php?pages=contact" class="item">Contact</a>
+				<a href="index.php?../pages=bio" class="item">Bio</a>
+				<a href="index.php?../pages=contact" class="item">Contact</a>
 			</div>
 		</div>
 

@@ -21,6 +21,7 @@ function getContent(){
 	}
 }
 
+
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
