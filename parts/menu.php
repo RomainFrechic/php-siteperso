@@ -1,6 +1,6 @@
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-	<a class="active item">Home</a>
+	<a class="item">Home</a>
 	<a class="item">Work</a>
 	<a class="item">Company</a>
 	<a class="item">Careers</a>
@@ -15,18 +15,18 @@
 				<a class="toc item">
 					<i class="sidebar icon"></i>
 				</a>
-				<a href="index.php" class="active item">Home</a>
-				<a href="index.php?../pages=bio" class="item">Bio</a>
-				<a href="index.php?../pages=contact" class="item">Contact</a>
+				<a href="index.php?page=home" class="item">Home</a>
+				<a href="index.php?page=bio" class="item">Bio</a>
+				<a href="index.php?page=contact" class="item">Contact</a>
 			</div>
 		</div>
 
 		<div class="ui text container">
 			<h1 class="ui inverted header">
-				Imagine-a-Company
+				Dream-Company-World
 			</h1>
-			<h2>Do whatever you want when you want to.</h2>
-			<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+			<h2>Do not dream your life, Make your life a dream.</h2>
+			<div class="ui huge primary button">Just Do It <i class="right arrow icon"></i></div>
 		</div>
 
 	</div>
